@@ -1,0 +1,5 @@
+<ul>
+  <li ng-repeat="contact in vm.contacts">
+    <a ui-sref="details({firstName: contact.firstName})">{{contact.firstName}}</a>
+  </li>
+</ul>
