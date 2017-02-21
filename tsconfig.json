@@ -15,9 +15,15 @@
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
         "lib": ["es6", "dom"],
-        "sourceMap": true
+        "sourceMap": true,
+        "types": [
+          "node",
+          "angular",
+          "angular-ui-router"
+        ]
     },
     "exclude": [
+        "node_modules",
         "typings/browser",
         "typings/browser.d.ts"
     ],
